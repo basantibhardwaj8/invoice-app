@@ -1,0 +1,52 @@
+/* settings.css */
+
+.setting-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.setting-wrapper {
+  margin-bottom: 20px;
+}
+
+.setting-wrapper input[type="file"] {
+  margin-right: 10px;
+}
+
+.setting-wrapper button {
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.setting-wrapper button:hover {
+  background-color: #0056b3;
+}
+
+.setting-wrapper input[type="text"] {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 300px;
+}
+
+.setting-wrapper input[type="text"]:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.setting-wrapper p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,69 @@
+.login-wrapper {
+    width: 100%;
+    height: 100vh; /* 50% of the viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Light background color */
+  }
+  
+  .container {
+    width: 600px;
+    height: 60%; /* 60% of the parent height (50vh in this case) */
+    background-color: #fff; /* White background color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for container */
+    display: flex;
+  }
+  
+  .login-left-box {
+    width: 50%; /* 50% width of container */
+    height: 50vh; /* Full height of container */
+    background-image: url('../../assets/hlo.jpeg'); /* Background image path */
+    background-size: cover; /* Cover background */
+    background-position: center; /* Center background */
+    border-top-left-radius: 10px; /* Rounded top left corner */
+    border-bottom-left-radius: 10px; /* Rounded bottom left corner */
+  }
+  
+  .login-right-box {
+    width: 80%; /* 50% width of container */
+    padding: 40px; /* Padding inside the box */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px; /* Slightly rounded corners */
+    border: 1px solid #ccc; /* Light border */
+    font-size: 14px; /* Font size */
+  }
+  
+  .login-btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    background-color: blue;
+    color: white; /* Text color */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  .register-link {
+    font-size: 12px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: blue; /* Link color */
+  }
+  
+  .register-link:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  

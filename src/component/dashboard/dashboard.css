@@ -1,0 +1,291 @@
+.dashboard-wrapper {
+    display: flex;
+    height: 100vh; /* Adjust as needed */
+  }
+  
+  .side-nav {
+    width: 250px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  .profile-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .profile-info div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile-info p {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .profile-info button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  
+  .profile-info button:hover {
+    text-decoration: underline;
+  }
+  
+  .side-nav hr {
+    border-color: #555;
+    margin: 20px 0;
+  }
+  
+  .menu-link {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu-link:hover {
+    background-color: #555;
+  }
+  
+  .main-container {
+    flex: 1;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  /* NewInvoice.css */
+/* NewInvoice.css */
+
+/* NewInvoice.css */
+
+/* Assuming you have a general layout for forms and buttons */
+.new-invoice-form {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.first-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.first-row input {
+  width: calc(33.33% - 10px); /* Adjust based on your layout needs */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.product-wrapper {
+  margin-top: 20px;
+}
+
+.product-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.product-list p {
+  flex: 1;
+  text-align: center;
+}
+
+.total-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .first-row input {
+      width: 100%;
+      margin-bottom: 10px;
+  }
+}
+//invoice ka css
+/* Assuming you have a general layout for forms and buttons */
+.header-row button{
+  background-color:blue;
+}
+.box{
+  display:flex;
+  gap:20px;
+  background-color:white;
+  margin-top:10px;
+  padding:20px;
+
+}
+.box p{
+  width:20%
+}
+.delete-btn{
+  
+}
+
+li {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  margin: 5px 0;
+}
+
+.delete-btn, .view-btn {
+  padding: 8px 12px;
+  margin-right: 10px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover, .view-btn:hover {
+  background-color: #c82333;
+}
+
+.view-btn {
+  background-color: #007bff;
+}
+
+.view-btn:hover {
+  background-color: #0056b3;
+}
+
+hr {
+  margin: 15px 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+.home-first-row {
+  
+  display: flex;
+  justify-content: space-around; /* Adjust spacing between boxes */
+  align-items: center; /* Center items vertically */
+  margin: 20px 0; /* Example margin */
+}
+
+.home-box home-box-1 {
+  width: 32%; /* Example width */
+  height: 27vh; 
+ /* Example height */
+  background-color: #f0f0f0; /* Example background color */
+  border: 1px solid #ccc; /* Example border */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Add more styling as needed */
+}
+
+.home-box-1 {
+  width: 32%; /* Example width */
+  height: 27vh; 
+  background-color:red;
+  /* Additional styles for the first box */
+   /* Example different background color */
+}
+
+.home-box-2 {
+  width: 32%; /* Example width */
+  height: 27vh; 
+  background-color:blue;
+  /* Additional styles for the second box */
+  
+}
+
+.home-box-3 {
+  width: 32%; /* Example width */
+  height: 27vh;
+  background-color:green;
+  /* Additional styles for the third box */
+   /* Example different background color */
+}
+.home-second-row {
+  display: flex; /* Flexbox layout for children */
+  justify-content: space-between; /* Spacing between children */
+}
+
+.chart-box {
+  width: 50%;
+  height:50vh;
+   /* Adjust width as needed */
+  background-color: #f0f0f0; /* Example background color */
+  padding: 20px; /* Example padding */
+  box-sizing: border-box; /* Include padding in width */
+}
+.recent-invoice-list1{
+  font-size:20px;
+  text-align:center;
+  padding:20px;
+  background-color:blue;
+  color:white;
+}
+
+.recent-invoice-list {
+  width: 45%; /* Adjust width as needed */
+  background-color: #e0e0e0; /* Example background color */
+  padding: 20px; /* Example padding */
+  box-sizing: border-box; /* Include padding in width */
+}
+
+.recent-invoice p {
+  margin: 0;
+  padding: 5px 0;
+}
+
+/* Optional: To style each part separately */
+.recent-invoice p:first-child {
+  font-weight: bold;
+}
+
+.recent-invoice p:last-child {
+  font-style: italic;
+}
+
+
